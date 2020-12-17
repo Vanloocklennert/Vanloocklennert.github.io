@@ -23,6 +23,7 @@
     --global-color-alpha-x-light: #ecf3ea;
     --global-color-alpha-light: #a8d39c;
     --global-color-alpha: #7eb36f;
+    --global-color-alpha-dark:#5e8b50;
 
     --global-color-beta: #3B86FF;
 
@@ -232,14 +233,14 @@ hr {
 a {
     --link-transition: all var(--global-transitionDuration-alpha) var(--global-transitionEasing-out);
     transition: var(--link-transition);
-    color: var(--link-color, var(--global-color-alpha));
+    color:var(--global-color-alpha-dark);
     outline-color: var(--link-boxShadowColor);
     outline-width: medium;
     outline-offset: 2px;
 }
 
 a:visited {
-    color: var(--link-visited-color, var(--global-color-alpha));
+    color: var(--link-visited-color, var(--global-color-alpha-dark));
 }
 
 a:hover {

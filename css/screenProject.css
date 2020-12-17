@@ -84,7 +84,7 @@ html {
     box-sizing: border-box;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    background-color: var(--global-color-alpha-x-light);
+    background-color: var(--global-color-alpha-light);
 }
 
 *,
